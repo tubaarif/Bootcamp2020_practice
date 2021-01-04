@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Bootcamp_practice
 
 # Controls when the action will run. 
 on:
@@ -33,4 +33,4 @@ jobs:
       - name: Installing Surge
         run: npm install --global surge
       - name: Deploying using surge
-        run: surge ./ bootcamp2020.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./ bootcamp2020_practice.surge.sh --token ${{secrets.SURGE_TOKEN}}
